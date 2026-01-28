@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1769591266006",
+    "type": "commands",
+    "name": "Test",
+    "content": "npm run compile",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "terminal",
+    "pinned": false
+  },
+  {
+    "id": "1769596551842",
+    "type": "prompts",
+    "name": "My prompt",
+    "content": "Typography: Optimized font sizes (11px base) and weights (450-600) for a precise, \"engineered\" look.\nLetter Spacing: Added subtle letter-spacing adjustments (0.01em and -0.01em) for improved readability and style.\nDensity: Increased information density while maintaining breathability.\nMicro-Animations: Added smooth transitions for tab switching, button hovers, and list interactions.",
+    "color": "var(--text-color)",
+    "icon": "law",
+    "pinned": true
+  },
+  {
+    "id": "1769596825467",
+    "type": "commands",
+    "name": "New",
+    "content": "wowo",
+    "color": "var(--vscode-charts-green)",
+    "icon": "shield",
+    "pinned": true
+  }
+]
