@@ -1,15 +1,5 @@
 [
   {
-    "id": "1769591266006",
-    "type": "commands",
-    "name": "Test",
-    "content": "npm run compile",
-    "notes": "Original test command for compiling the extension.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "terminal",
-    "pinned": false
-  },
-  {
     "id": "1769596551842",
     "type": "prompts",
     "name": "My prompt",
