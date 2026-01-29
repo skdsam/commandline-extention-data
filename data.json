@@ -1,11 +1,32 @@
 [
   {
+    "id": "1769591266006",
+    "type": "commands",
+    "name": "Test",
+    "content": "npm run compile",
+    "notes": "Original test command for compiling the extension.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "terminal",
+    "pinned": false
+  },
+  {
     "id": "1769596551842",
     "type": "prompts",
     "name": "My prompt",
     "content": "Typography: Optimized font sizes (11px base) and weights (450-600) for a precise, \"engineered\" look.\nLetter Spacing: Added subtle letter-spacing adjustments (0.01em and -0.01em) for improved readability and style.\nDensity: Increased information density while maintaining breathability.\nMicro-Animations: Added smooth transitions for tab switching, button hovers, and list interactions.",
+    "notes": "Native UI design guidelines and typographic specifications.",
     "color": "var(--text-color)",
     "icon": "law",
+    "pinned": true
+  },
+  {
+    "id": "1769596825467",
+    "type": "commands",
+    "name": "New",
+    "content": "wowo",
+    "notes": "A placeholder command.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "shield",
     "pinned": true
   },
   {
@@ -13,6 +34,7 @@
     "type": "commands",
     "name": "Cargo: New Project",
     "content": "cargo new <name>",
+    "notes": "Creates a new Rust project in a folder with the given name.",
     "color": "var(--vscode-charts-orange)",
     "icon": "new-folder",
     "pinned": false
@@ -22,6 +44,7 @@
     "type": "commands",
     "name": "Cargo: Build",
     "content": "cargo build",
+    "notes": "Compiles the current project and its dependencies.",
     "color": "var(--vscode-charts-blue)",
     "icon": "tools",
     "pinned": false
@@ -31,6 +54,7 @@
     "type": "commands",
     "name": "Cargo: Run",
     "content": "cargo run",
+    "notes": "Compiles and executes the current project binary.",
     "color": "var(--vscode-charts-green)",
     "icon": "play-circle",
     "pinned": false
@@ -40,6 +64,7 @@
     "type": "commands",
     "name": "Cargo: Check",
     "content": "cargo check",
+    "notes": "Quickly check code for errors without building the full binary.",
     "color": "var(--vscode-charts-purple)",
     "icon": "check-all",
     "pinned": false
@@ -49,6 +74,7 @@
     "type": "commands",
     "name": "Cargo: Test",
     "content": "cargo test",
+    "notes": "Runs all unit and integration tests defined in the project.",
     "color": "var(--vscode-charts-yellow)",
     "icon": "beaker",
     "pinned": false
@@ -58,6 +84,7 @@
     "type": "commands",
     "name": "NPM: Compile",
     "content": "npm run compile",
+    "notes": "Compiles the extension code using the defined build script.",
     "color": "var(--vscode-charts-blue)",
     "icon": "gear",
     "pinned": false
@@ -67,6 +94,7 @@
     "type": "commands",
     "name": "VSCE: Package",
     "content": "npx vsce package",
+    "notes": "Packages the extension into a .vsix file for installation.",
     "color": "var(--vscode-charts-purple)",
     "icon": "package",
     "pinned": false
@@ -76,8 +104,49 @@
     "type": "commands",
     "name": "Git: Init",
     "content": "git init",
+    "notes": "Initializes a new local Git repository in the current folder.",
     "color": "var(--vscode-charts-red)",
     "icon": "repo",
+    "pinned": false
+  },
+  {
+    "id": "1738153300011",
+    "type": "commands",
+    "name": "Git: Clone",
+    "content": "git clone <url>",
+    "notes": "Clones a remote repository to your local machine.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "cloud-download",
+    "pinned": false
+  },
+  {
+    "id": "1738153300012",
+    "type": "commands",
+    "name": "Git: Status",
+    "content": "git status",
+    "notes": "Displays the state of the working directory and staging area.",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "info",
+    "pinned": true
+  },
+  {
+    "id": "1738153300013",
+    "type": "commands",
+    "name": "Git: Commit",
+    "content": "git commit -m \"<message>\"",
+    "notes": "Records changes to the repository with a descriptive message.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "check",
+    "pinned": false
+  },
+  {
+    "id": "1738153300014",
+    "type": "commands",
+    "name": "Git: Fetch & Pull",
+    "content": "git pull origin main",
+    "notes": "Fetches and integrates changes from the remote main branch.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "repo-pull",
     "pinned": false
   },
   {
@@ -85,8 +154,49 @@
     "type": "commands",
     "name": "Git: Push",
     "content": "git push -u origin main",
+    "notes": "Uploads local commits to the remote main branch.",
     "color": "var(--vscode-charts-purple)",
     "icon": "cloud-upload",
+    "pinned": false
+  },
+  {
+    "id": "1738153300015",
+    "type": "commands",
+    "name": "Docker: Build",
+    "content": "docker build -t <tag> .",
+    "notes": "Builds an image from a Dockerfile in the current directory.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "tools",
+    "pinned": false
+  },
+  {
+    "id": "1738153300016",
+    "type": "commands",
+    "name": "Docker: Run",
+    "content": "docker run -it <image>",
+    "notes": "Starts a container from an image in interactive mode.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "play",
+    "pinned": false
+  },
+  {
+    "id": "1738153300017",
+    "type": "commands",
+    "name": "Docker: List Images",
+    "content": "docker images",
+    "notes": "Lists all Docker images stored locally.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "layers",
+    "pinned": false
+  },
+  {
+    "id": "1738153300018",
+    "type": "commands",
+    "name": "Docker: List Containers",
+    "content": "docker ps -a",
+    "notes": "Lists all containers, including stopped ones.",
+    "color": "var(--vscode-terminal-ansiMagenta)",
+    "icon": "list-unordered",
     "pinned": false
   },
   {
@@ -94,8 +204,89 @@
     "type": "commands",
     "name": "CMake: Build",
     "content": "cmake --build build",
+    "notes": "Builds a C++ project using CMake generated build files.",
     "color": "var(--vscode-charts-blue)",
     "icon": "tools",
     "pinned": false
+  },
+  {
+    "id": "1738153300019",
+    "type": "commands",
+    "name": "Rust: Update Toolchain",
+    "content": "rustup update",
+    "notes": "Updates the Rust toolchain to the latest version.",
+    "color": "var(--vscode-charts-orange)",
+    "icon": "refresh",
+    "pinned": false
+  },
+  {
+    "id": "1738153300020",
+    "type": "commands",
+    "name": "NPM: Install",
+    "content": "npm install",
+    "notes": "Installs dependencies specified in package.json.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "package",
+    "pinned": false
+  },
+  {
+    "id": "1738153300021",
+    "type": "commands",
+    "name": "NPM: Run Dev",
+    "content": "npm run dev",
+    "notes": "Starts the development server for the project.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "rocket",
+    "pinned": true
+  },
+  {
+    "id": "1738153300022",
+    "type": "commands",
+    "name": "Git: Branch List",
+    "content": "git branch",
+    "notes": "Lists all local branches in the current repository.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "git-branch",
+    "pinned": false
+  },
+  {
+    "id": "1738153300023",
+    "type": "commands",
+    "name": "Git: Checkout",
+    "content": "git checkout -b <branch>",
+    "notes": "Creates and switches to a new branch.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "git-merge",
+    "pinned": false
+  },
+  {
+    "id": "1738153300024",
+    "type": "commands",
+    "name": "Docker: Prune System",
+    "content": "docker system prune -f",
+    "notes": "Removes unused data to free up disk space.",
+    "color": "var(--vscode-charts-red)",
+    "icon": "trash",
+    "pinned": false
+  },
+  {
+    "id": "1738153300025",
+    "type": "commands",
+    "name": "VS Code: Build Extension",
+    "content": "npm run build",
+    "notes": "Compiles webview and source code for production.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "gear",
+    "pinned": false
+  },
+  {
+    "id": "1738153300026",
+    "type": "prompts",
+    "name": "Native UI Guidelines",
+    "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
+    "notes": "Design principles for achieving a premium native application look.",
+    "color": "var(--text-color)",
+    "icon": "law",
+    "pinned": true
   }
 ]
