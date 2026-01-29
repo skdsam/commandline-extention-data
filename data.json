@@ -25,5 +25,95 @@
     "color": "var(--vscode-charts-green)",
     "icon": "shield",
     "pinned": true
+  },
+  {
+    "id": "1738153300001",
+    "type": "commands",
+    "name": "Cargo: New Project",
+    "content": "cargo new <name>",
+    "color": "var(--vscode-charts-orange)",
+    "icon": "new-folder",
+    "pinned": false
+  },
+  {
+    "id": "1738153300002",
+    "type": "commands",
+    "name": "Cargo: Build",
+    "content": "cargo build",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "tools",
+    "pinned": false
+  },
+  {
+    "id": "1738153300003",
+    "type": "commands",
+    "name": "Cargo: Run",
+    "content": "cargo run",
+    "color": "var(--vscode-charts-green)",
+    "icon": "play-circle",
+    "pinned": false
+  },
+  {
+    "id": "1738153300004",
+    "type": "commands",
+    "name": "Cargo: Check",
+    "content": "cargo check",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "check-all",
+    "pinned": false
+  },
+  {
+    "id": "1738153300005",
+    "type": "commands",
+    "name": "Cargo: Test",
+    "content": "cargo test",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "beaker",
+    "pinned": false
+  },
+  {
+    "id": "1738153300006",
+    "type": "commands",
+    "name": "NPM: Compile",
+    "content": "npm run compile",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "gear",
+    "pinned": false
+  },
+  {
+    "id": "1738153300007",
+    "type": "commands",
+    "name": "VSCE: Package",
+    "content": "npx vsce package",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "package",
+    "pinned": false
+  },
+  {
+    "id": "1738153300008",
+    "type": "commands",
+    "name": "Git: Init",
+    "content": "git init",
+    "color": "var(--vscode-charts-red)",
+    "icon": "repo",
+    "pinned": false
+  },
+  {
+    "id": "1738153300009",
+    "type": "commands",
+    "name": "Git: Push",
+    "content": "git push -u origin main",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "cloud-upload",
+    "pinned": false
+  },
+  {
+    "id": "1738153300010",
+    "type": "commands",
+    "name": "CMake: Build",
+    "content": "cmake --build build",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "tools",
+    "pinned": false
   }
 ]
