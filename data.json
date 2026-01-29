@@ -268,5 +268,55 @@
     "color": "var(--text-color)",
     "icon": "law",
     "pinned": true
+  },
+  {
+    "id": "1738153301001",
+    "type": "prompts",
+    "name": "PR Template: Standard",
+    "content": "## Description\n[Provide a brief description of the changes]\n\n## Related Issues\nFixes #[Issue Number]\n\n## Changes Made\n- [Refined logic for...]\n- [Added new component...]\n\n## Testing Performed\n- [x] Manual verification of UI\n- [x] Ran automated tests",
+    "notes": "A standard template for Pull Requests.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "git-pull-request",
+    "pinned": false
+  },
+  {
+    "id": "1738153301002",
+    "type": "prompts",
+    "name": "Code Review Checklist",
+    "content": "- [ ] Does the code follow project naming conventions?\n- [ ] Are there any obvious logic errors or edge cases missed?\n- [ ] Is the code well-commented where necessary?\n- [ ] Are there potential performance bottlenecks?\n- [ ] Does the UI match the design specification exactly?",
+    "notes": "General checklist for conducting code reviews.",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "check-all",
+    "pinned": false
+  },
+  {
+    "id": "1738153301003",
+    "type": "prompts",
+    "name": "Bug Report Template",
+    "content": "## Steps to Reproduce\n1. [Step 1]\n2. [Step 2]\n\n## Expected Behavior\n[What should have happened]\n\n## Actual Behavior\n[What actually happened]\n\n## Environment\n- OS: [e.g. Windows 11]\n- Version: [e.g. 1.0.2]",
+    "notes": "Structured format for reporting bugs.",
+    "color": "var(--vscode-charts-red)",
+    "icon": "bug",
+    "pinned": false
+  },
+  {
+    "id": "1738153301004",
+    "type": "prompts",
+    "name": "Conventional Commits Guide",
+    "content": "Format: <type>(<scope>): <description>\n\nTypes:\n- feat: A new feature\n- fix: A bug fix\n- docs: Documentation changes\n- style: Changes that do not affect the meaning of the code\n- refactor: A code change that neither fixes a bug nor adds a feature\n- perf: A code change that improves performance\n- test: Adding missing tests or correcting existing tests",
+    "notes": "Guideline for writing standardized Git commit messages.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "git-commit",
+    "pinned": false
+  },
+  {
+    "id": "1738153301005",
+    "type": "prompts",
+    "name": "System Architecture Overview",
+    "content": "## Components\n- Provider: Handles VS Code API interaction and data persistence.\n- Webview (Media): Manages the UI, state, and user interactions.\n- Data Storage: JSON-based local/remote sync via Git.",
+    "notes": "High-level summary of the Command & Prompt Tracker architecture.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "symbol-class",
+    "pinned": false
   }
 ]
