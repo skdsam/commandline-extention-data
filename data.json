@@ -20,16 +20,6 @@
     "pinned": true
   },
   {
-    "id": "1769596825467",
-    "type": "commands",
-    "name": "New",
-    "content": "wowo",
-    "notes": "A placeholder command.",
-    "color": "var(--vscode-charts-green)",
-    "icon": "shield",
-    "pinned": true
-  },
-  {
     "id": "1738153300001",
     "type": "commands",
     "name": "Cargo: New Project",
