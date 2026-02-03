@@ -318,5 +318,15 @@
     "color": "var(--vscode-terminal-ansiCyan)",
     "icon": "symbol-class",
     "pinned": false
+  },
+  {
+    "id": "1770115645602",
+    "type": "commands",
+    "name": "Terminal: Scratch folder",
+    "content": "New-Item -ItemType SymbolicLink -Path \"C:\\Users\\skdso\\.gemini\\antigravity\\scratch\" -Target \"D:\\scratch\"",
+    "notes": "Change your location of the scratch folder",
+    "color": "var(--text-color)",
+    "icon": "symbol-folder",
+    "pinned": false
   }
 ]
