@@ -6,7 +6,7 @@
     "content": "Typography: Optimized font sizes (11px base) and weights (450-600) for a precise, \"engineered\" look.\nLetter Spacing: Added subtle letter-spacing adjustments (0.01em and -0.01em) for improved readability and style.\nDensity: Increased information density while maintaining breathability.\nMicro-Animations: Added smooth transitions for tab switching, button hovers, and list interactions.",
     "notes": "Native UI design guidelines and typographic specifications.",
     "color": "var(--vscode-charts-blue)",
-    "icon": "symbol-folder",
+    "icon": "paintcan",
     "pinned": true
   },
   {
