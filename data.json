@@ -328,5 +328,35 @@
     "color": "var(--vscode-charts-orange)",
     "icon": "terminal",
     "pinned": false
+  },
+  {
+    "id": "1738153301006",
+    "type": "prompts",
+    "name": "Design: Glassmorphism",
+    "content": "Keywords: Frosted glass, transparent layers, blurred background, depth, vibrant backdrop\n\nTechnical: backdrop-filter: blur(8px), rgba backgrounds, layered cards\n\nUse when: Modern apps, dashboards, overlays, modals\n\nAvoid: Low-contrast backgrounds, accessibility issues",
+    "notes": "Modern glassmorphism design style with frosted glass effects and transparent layers.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301007",
+    "type": "prompts",
+    "name": "Design: Aurora UI",
+    "content": "Keywords: Vibrant gradients, smooth blend, Northern Lights effect, mesh gradient, luminous\n\nTechnical: Multi-stop gradients, animated hue rotation, glow effects\n\nUse when: Landing pages, hero sections, creative portfolios\n\nAvoid: Text-heavy interfaces, professional/corporate contexts",
+    "notes": "Aurora-inspired UI design with vibrant gradients and Northern Lights effects.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301008",
+    "type": "prompts",
+    "name": "Design: Soft UI (Neumorphism 2.0)",
+    "content": "Keywords: Soft shadows, subtle gradients, rounded corners (12-16px), monochromatic, tactile\n\nTechnical: box-shadow: inset + outset, same-color palette, minimal contrast\n\nUse when: Mobile apps, minimalist interfaces, wellness/health apps\n\nAvoid: Complex data displays, accessibility-critical applications",
+    "notes": "Soft UI evolution (Neumorphism 2.0) with subtle shadows and tactile elements.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "symbol-color",
+    "pinned": false
   }
 ]
