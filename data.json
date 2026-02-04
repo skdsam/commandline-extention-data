@@ -187,7 +187,7 @@
     "notes": "Builds a C++ project using CMake generated build files.",
     "color": "var(--vscode-charts-blue)",
     "icon": "tools",
-    "pinned": false
+    "pinned": true
   },
   {
     "id": "1738153300019",
