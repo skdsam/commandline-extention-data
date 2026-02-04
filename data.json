@@ -317,7 +317,7 @@
     "notes": "High-level summary of the Command & Prompt Tracker architecture.",
     "color": "var(--vscode-terminal-ansiCyan)",
     "icon": "symbol-class",
-    "pinned": false
+    "pinned": true
   },
   {
     "id": "1770115645602",
