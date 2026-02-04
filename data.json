@@ -478,5 +478,155 @@
     "color": "var(--vscode-terminal-ansiBrightGreen)",
     "icon": "sparkle",
     "pinned": false
+  },
+  {
+    "id": "1738153301021",
+    "type": "prompts",
+    "name": "AI Prompt: React Component",
+    "content": "You are an expert React developer. Create a reusable [component name] component that:\n- Uses TypeScript with proper type definitions\n- Implements [specific features]\n- Includes accessibility (ARIA labels, keyboard navigation)\n- Uses [Tailwind CSS / styled-components] for styling\n- Handles all states: default, hover, active, disabled, error\n- Is fully responsive (mobile-first)\n- Includes JSDoc comments\n\nExample usage should be shown in code comments.",
+    "notes": "Template for generating production-ready React components with AI.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "code",
+    "pinned": true
+  },
+  {
+    "id": "1738153301022",
+    "type": "prompts",
+    "name": "AI Prompt: Debug Error",
+    "content": "I'm getting an error in my [language/framework] code.\n\nError message:\n[paste full error message and stack trace]\n\nRelevant code:\n[paste code snippet]\n\nContext:\n- Environment: [browser/Node.js/etc.]\n- Dependencies: [list relevant packages and versions]\n- What I've tried: [attempted solutions]\n\nGoal: [what the code should do]\n\nPlease:\n1. Explain the root cause\n2. Suggest a fix with code\n3. Explain why this solution works\n4. Suggest ways to prevent similar errors",
+    "notes": "Structured debugging prompt for getting effective AI help with errors.",
+    "color": "var(--vscode-charts-red)",
+    "icon": "bug",
+    "pinned": false
+  },
+  {
+    "id": "1738153301023",
+    "type": "prompts",
+    "name": "AI Prompt: Code Review",
+    "content": "Review the following [language] code for:\n- Potential bugs and logical errors\n- Security vulnerabilities\n- Performance bottlenecks\n- Code smells and anti-patterns\n- SOLID principles violations\n- Better naming conventions\n- Missing error handling\n- Accessibility issues (if UI code)\n\nGoal: [what the code does]\n\n[paste code]\n\nProvide:\n1. Issues found (with severity: critical/high/medium/low)\n2. Specific improvements with code examples\n3. Best practices recommendations",
+    "notes": "Comprehensive code review prompt for quality improvements.",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "checklist",
+    "pinned": false
+  },
+  {
+    "id": "1738153301024",
+    "type": "prompts",
+    "name": "AI Prompt: Performance Optimization",
+    "content": "Optimize this [framework/language] code for performance:\n\nCurrent code:\n[paste code]\n\nContext:\n- This code handles [describe scenario]\n- Performance issue: [describe problem, e.g., slow rendering, high memory]\n- Scale: [data size, user count, etc.]\n\nOptimize for:\n- Rendering performance (use React.memo, useMemo, useCallback)\n- Bundle size reduction\n- Memory efficiency\n- Network requests (caching, batching)\n- Load time improvements\n\nProvide:\n1. Optimized code with explanations\n2. Performance metrics to measure\n3. Before/after comparison",
+    "notes": "Performance optimization prompt with specific metrics and techniques.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "rocket",
+    "pinned": false
+  },
+  {
+    "id": "1738153301025",
+    "type": "prompts",
+    "name": "AI Prompt: Unit Tests",
+    "content": "Generate comprehensive unit tests for this code:\n\n[paste code]\n\nRequirements:\n- Testing framework: [Jest/Vitest/etc.]\n- Test library: [React Testing Library/etc.]\n- Coverage: All functions, edge cases, error states\n- Mock external dependencies\n- Test accessibility (if UI)\n- Follow AAA pattern (Arrange, Act, Assert)\n\nInclude tests for:\n1. Happy path scenarios\n2. Edge cases (empty data, null, undefined)\n3. Error handling\n4. User interactions (if UI)\n5. Async operations\n\nUse descriptive test names.",
+    "notes": "Comprehensive testing prompt for generating quality unit tests.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "beaker",
+    "pinned": false
+  },
+  {
+    "id": "1738153301026",
+    "type": "prompts",
+    "name": "AI Prompt: API Endpoint",
+    "content": "Create a RESTful API endpoint in [language/framework]:\n\nEndpoint: [METHOD] /api/[resource]\n\nRequirements:\n- Input validation with [Zod/Joi/etc.]\n- Error handling (400, 401, 403, 404, 500)\n- Database: [PostgreSQL/MongoDB/etc.]\n- Authentication: [JWT/OAuth/etc.]\n- Rate limiting\n- Logging\n- TypeScript types\n- OpenAPI/Swagger documentation\n\nInclude:\n1. Route handler\n2. Service layer\n3. Database query\n4. Response format (JSON)\n5. Error responses\n6. Example request/response",
+    "notes": "Full-stack API endpoint creation with best practices.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "server",
+    "pinned": false
+  },
+  {
+    "id": "1738153301027",
+    "type": "prompts",
+    "name": "AI Prompt: Refactor Legacy Code",
+    "content": "Refactor this legacy code to modern standards:\n\n[paste code]\n\nTarget:\n- Language/Framework: [e.g., ES6+, React 18]\n- Goals: [readability, performance, maintainability]\n\nRequirements:\n1. Convert to modern syntax (async/await, destructuring, etc.)\n2. Extract reusable functions/components\n3. Add TypeScript types\n4. Improve naming conventions\n5. Add error handling\n6. Remove code duplication\n7. Add comments for complex logic\n8. Maintain backward compatibility: [Yes/No]\n\nProvide:\n- Refactored code\n- Migration guide\n- Breaking changes (if any)",
+    "notes": "Legacy code modernization with step-by-step refactoring.",
+    "color": "var(--vscode-charts-orange)",
+    "icon": "tools",
+    "pinned": false
+  },
+  {
+    "id": "1738153301028",
+    "type": "prompts",
+    "name": "AI Prompt: React Native App",
+    "content": "Create a React Native app with Expo for [app purpose]:\n\nFeatures:\n- [List core features]\n- Navigation: Tab navigation with [X] screens\n- Authentication: [Firebase/Supabase/etc.]\n- State management: [Zustand/Redux/Context]\n- UI library: [React Native Elements/etc.]\n\nScreens needed:\n1. [Screen name]: [description]\n2. [Screen name]: [description]\n\nRequirements:\n- TypeScript\n- Dark mode support\n- Offline capability\n- Push notifications\n- Responsive design (iOS + Android)\n- Accessibility features\n\nProvide:\n- App structure\n- Navigation setup\n- Core screens with styling\n- State management setup",
+    "notes": "Complete React Native app generation with modern stack.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "device-mobile",
+    "pinned": false
+  },
+  {
+    "id": "1738153301029",
+    "type": "prompts",
+    "name": "AI Prompt: Accessibility Audit",
+    "content": "Audit this component/page for WCAG 2.1 AA compliance:\n\n[paste code]\n\nCheck for:\n1. Color contrast (text: 4.5:1, large text: 3:1, UI: 3:1)\n2. Keyboard navigation (tab order, focus indicators)\n3. Screen reader support (ARIA labels, roles, live regions)\n4. Form accessibility (labels, error messages, required fields)\n5. Interactive element size (44x44px minimum)\n6. Semantic HTML structure\n7. Alt text for images\n8. Focus traps in modals\n9. Skip navigation links\n\nProvide:\n- Issues found with severity\n- Fixed code\n- Testing recommendations",
+    "notes": "Complete accessibility audit prompt following WCAG guidelines.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "law",
+    "pinned": false
+  },
+  {
+    "id": "1738153301030",
+    "type": "prompts",
+    "name": "AI Prompt: Database Schema",
+    "content": "Design a database schema for [purpose]:\n\nRequirements:\n- Database: [PostgreSQL/MongoDB/etc.]\n- ORM: [Prisma/TypeORM/Mongoose/etc.]\n\nEntities needed:\n1. [Entity name]: [description]\n2. [Entity name]: [description]\n\nRelationships:\n- [describe relationships]\n\nInclude:\n1. Schema definition (SQL/Prisma/etc.)\n2. Indexes for performance\n3. Foreign key constraints\n4. Default values\n5. Validation rules\n6. Migration files\n7. TypeScript types\n8. Sample queries\n\nConsider:\n- Data integrity\n- Query performance\n- Scalability",
+    "notes": "Database schema design with migrations and types.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "database",
+    "pinned": false
+  },
+  {
+    "id": "1738153301031",
+    "type": "prompts",
+    "name": "AI Prompt: Security Review",
+    "content": "Security review for this [language/framework] code:\n\n[paste code]\n\nCheck for:\n1. SQL Injection vulnerabilities\n2. XSS (Cross-Site Scripting)\n3. CSRF protection\n4. Authentication flaws\n5. Authorization bypasses\n6. Sensitive data exposure\n7. Insecure dependencies\n8. API key leaks\n9. Input validation\n10. Rate limiting\n11. CORS configuration\n12. Password hashing (bcrypt, Argon2)\n\nProvide:\n- Vulnerabilities (with OWASP classification)\n- Severity rating (Critical/High/Medium/Low)\n- Exploitability\n- Remediation code\n- Security best practices",
+    "notes": "Security audit prompt following OWASP standards.",
+    "color": "var(--vscode-charts-red)",
+    "icon": "lock",
+    "pinned": false
+  },
+  {
+    "id": "1738153301032",
+    "type": "prompts",
+    "name": "AI Prompt: TypeScript Migration",
+    "content": "Convert this JavaScript code to TypeScript:\n\n[paste JavaScript code]\n\nRequirements:\n1. Add comprehensive type definitions\n2. Use interfaces for objects\n3. Use enums where appropriate\n4. Add generic types for reusable functions\n5. Use strict mode (noImplicitAny, strictNullChecks)\n6. Type all function parameters and returns\n7. Use utility types (Partial, Pick, Omit, etc.)\n8. Add JSDoc for complex types\n\nProvide:\n- Fully typed code\n- Type definitions file (.d.ts) if needed\n- Explanation of type choices",
+    "notes": "JavaScript to TypeScript migration with strict typing.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "code",
+    "pinned": false
+  },
+  {
+    "id": "1738153301033",
+    "type": "prompts",
+    "name": "AI Prompt: CSS Architecture",
+    "content": "Create a CSS architecture for [project type]:\n\nApproach: [Tailwind/CSS Modules/Styled Components/BEM]\n\nRequirements:\n1. Design tokens (colors, spacing, typography, shadows)\n2. Utility classes for common patterns\n3. Component-specific styles\n4. Responsive breakpoints\n5. Dark mode support\n6. Animation utilities\n7. Print styles\n8. CSS custom properties\n\nOrganization:\n- File structure\n- Naming conventions\n- Style composition\n- Optimization strategy\n\nProvide:\n- Base styles\n- Configuration file\n- Example component styles\n- Documentation",
+    "notes": "Complete CSS architecture setup with design system.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "paintcan",
+    "pinned": false
+  },
+  {
+    "id": "1738153301034",
+    "type": "prompts",
+    "name": "AI Prompt: Next.js App",
+    "content": "Create a Next.js 14+ app with App Router:\n\nProject: [name and purpose]\n\nFeatures:\n- [list features]\n- Authentication: [NextAuth/Clerk/etc.]\n- Database: [Prisma + PostgreSQL/etc.]\n- Styling: [Tailwind CSS/etc.]\n- Deployment: [Vercel/etc.]\n\nPages/Routes:\n1. / - Homepage\n2. [list other routes]\n\nRequirements:\n- TypeScript\n- Server Components where possible\n- API routes with route handlers\n- Metadata for SEO\n- Loading and error states\n- Server actions for mutations\n- Responsive design\n- Image optimization\n\nProvide:\n- Project structure\n- Core pages\n- API routes\n- Database schema\n- Auth setup",
+    "notes": "Modern Next.js app with App Router and server components.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "browser",
+    "pinned": false
+  },
+  {
+    "id": "1738153301035",
+    "type": "prompts",
+    "name": "AI Prompt: Code Documentation",
+    "content": "Generate comprehensive documentation for this code:\n\n[paste code]\n\nInclude:\n1. Function/Class overview\n2. Parameters (type, description, required/optional, default)\n3. Return value (type, description)\n4. Throws/Errors (what exceptions, when)\n5. Usage examples (3-5 real-world scenarios)\n6. Edge cases and caveats\n7. Performance considerations\n8. Related functions/classes\n9. TypeScript types (if applicable)\n10. @deprecated if legacy\n\nFormat: [JSDoc/TSDoc/Markdown]\n\nStyle:\n- Clear and concise\n- Technical but readable\n- Include code examples\n- Link to related docs",
+    "notes": "Complete code documentation generation with examples.",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "note",
+    "pinned": false
   }
 ]
