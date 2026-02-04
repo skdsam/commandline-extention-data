@@ -358,5 +358,125 @@
     "color": "var(--vscode-charts-blue)",
     "icon": "paintcan",
     "pinned": false
+  },
+  {
+    "id": "1738153301009",
+    "type": "prompts",
+    "name": "Palette: Trust & Professional",
+    "content": "Industry: Finance, Healthcare, Enterprise\n\nColors:\n--primary: #0F172A (Navy)\n--cta: #3B82F6 (Blue)\n--background: #F8FAFC (Light Grey)\n--text: #1E293B (Slate)\n--accent: #3B82F6 (Bright Blue)\n\nMood: Reliable, secure, established",
+    "notes": "Professional color palette for corporate and enterprise applications.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301010",
+    "type": "prompts",
+    "name": "Palette: Vibrant & Modern",
+    "content": "Industry: Tech Startups, Creative Tools\n\nColors:\n--primary: #6366F1 (Indigo)\n--cta: #10B981 (Emerald)\n--background: #FFFFFF (Pure White)\n--text: #1E293B (Slate)\n--accent: #F59F0B (Amber)\n\nMood: Innovative, energetic, forward-thinking",
+    "notes": "Modern vibrant palette for tech startups and creative applications.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301011",
+    "type": "prompts",
+    "name": "Palette: Luxury & Premium",
+    "content": "Industry: High-end Products, Fashion\n\nColors:\n--primary: #1C1917 (Stone Dark)\n--cta: #CA8A04 (Gold)\n--background: #FAFAF9 (Cream)\n--text: #292524 (Warm Black)\n--accent: #78716C (Taupe)\n\nMood: Sophisticated, exclusive, timeless",
+    "notes": "Luxury color palette for premium brands and high-end products.",
+    "color": "var(--vscode-terminal-ansiMagenta)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301012",
+    "type": "prompts",
+    "name": "Design: Accessibility (WCAG)",
+    "content": "Color Contrast:\n- Text: Minimum 4.5:1 (AA), 7:1 (AAA)\n- Large text: Minimum 3:1 (AA), 4.5:1 (AAA)\n- UI components: Minimum 3:1\n\nInteraction:\n- Tap targets: 44x44px minimum\n- Focus indicators: Visible 2px outline\n- Keyboard navigation: Full support\n\nContent:\n- Alt text for images\n- ARIA labels for interactive elements\n- Semantic HTML structure",
+    "notes": "WCAG 2.1 accessibility guidelines for inclusive design.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "law",
+    "pinned": true
+  },
+  {
+    "id": "1738153301013",
+    "type": "prompts",
+    "name": "Design: Typography System",
+    "content": "Font Scale (Modular 1.25):\n- h1: 3.052rem (48.83px)\n- h2: 2.441rem (39.06px)\n- h3: 1.953rem (31.25px)\n- h4: 1.563rem (25px)\n- h5: 1.25rem (20px)\n- body: 1rem (16px)\n- small: 0.8rem (12.8px)\n\nLine Height:\n- Headings: 1.2\n- Body: 1.5-1.6\n- Dense UI: 1.4\n\nFont Weight:\n- Regular: 400\n- Medium: 500\n- Semibold: 600\n- Bold: 700",
+    "notes": "Harmonious typography system with modular scale and proper hierarchy.",
+    "color": "var(--vscode-terminal-ansiCyan)",
+    "icon": "pencil",
+    "pinned": false
+  },
+  {
+    "id": "1738153301014",
+    "type": "prompts",
+    "name": "Design: Spacing System (8pt Grid)",
+    "content": "Base Unit: 8px\n\nSpacing Scale:\n- xs: 4px (0.5 unit)\n- sm: 8px (1 unit)\n- md: 16px (2 units)\n- lg: 24px (3 units)\n- xl: 32px (4 units)\n- 2xl: 48px (6 units)\n- 3xl: 64px (8 units)\n\nComponent Padding:\n- Button: 12px 24px\n- Input: 12px 16px\n- Card: 24px\n- Section: 48px 0",
+    "notes": "Consistent 8-point grid spacing system for visual harmony.",
+    "color": "var(--vscode-charts-orange)",
+    "icon": "symbol-ruler",
+    "pinned": false
+  },
+  {
+    "id": "1738153301015",
+    "type": "prompts",
+    "name": "Design: Component Patterns",
+    "content": "Buttons:\n- Primary: High contrast, single CTA\n- Secondary: Outlined, less prominent\n- Ghost: Text-only, minimal visual weight\n- States: Default, Hover, Active, Disabled\n\nInputs:\n- Label position: Top (mobile) or Left (desktop)\n- Error states: Red border + helper text\n- Success states: Green checkmark\n- Placeholder: 60% opacity of text color\n\nCards:\n- Border radius: 8-12px\n- Shadow: 0 2px 8px rgba(0,0,0,0.1)\n- Hover: Lift effect with increased shadow",
+    "notes": "Common UI component design patterns and best practices.",
+    "color": "var(--vscode-charts-blue)",
+    "icon": "layout",
+    "pinned": false
+  },
+  {
+    "id": "1738153301016",
+    "type": "prompts",
+    "name": "Design: Animation Principles",
+    "content": "Duration:\n- Micro (hover, toggle): 100-200ms\n- Small (tooltip, dropdown): 200-300ms\n- Medium (modal, drawer): 300-400ms\n- Large (page transition): 400-600ms\n\nEasing:\n- Ease-out: Elements entering (cubic-bezier(0.0, 0, 0.2, 1))\n- Ease-in: Elements exiting (cubic-bezier(0.4, 0, 1, 1))\n- Ease-in-out: Elements moving (cubic-bezier(0.4, 0, 0.2, 1))\n\nPrinciples:\n- Purposeful: Every animation serves a function\n- Subtle: Don't distract from content\n- Performant: Use transform and opacity",
+    "notes": "Animation timing, easing, and performance guidelines.",
+    "color": "var(--vscode-charts-purple)",
+    "icon": "sparkle",
+    "pinned": false
+  },
+  {
+    "id": "1738153301017",
+    "type": "prompts",
+    "name": "Design: Responsive Breakpoints",
+    "content": "Mobile-First Approach:\n\nBreakpoints:\n- xs: 0-640px (Mobile)\n- sm: 640px-768px (Large Mobile)\n- md: 768px-1024px (Tablet)\n- lg: 1024px-1280px (Desktop)\n- xl: 1280px-1536px (Large Desktop)\n- 2xl: 1536px+ (Extra Large)\n\nFluid Typography:\n- Use clamp() for responsive font sizes\n- Example: clamp(1rem, 2vw, 1.5rem)\n\nContainer:\n- Max-width: 1280px\n- Padding: 16px (mobile), 24px (tablet), 48px (desktop)",
+    "notes": "Responsive design breakpoints and fluid scaling techniques.",
+    "color": "var(--vscode-charts-green)",
+    "icon": "device-mobile",
+    "pinned": false
+  },
+  {
+    "id": "1738153301018",
+    "type": "prompts",
+    "name": "Design: Dark Mode Strategy",
+    "content": "Color Adjustments:\n- Don't just invert colors\n- Reduce white to off-white (#E5E5E5)\n- Pure black can be harsh, use #121212\n- Increase surface elevation with lighter grays\n\nContrast:\n- Maintain WCAG ratios in dark mode\n- Test with color blindness simulators\n\nImage Handling:\n- Reduce brightness of images (opacity: 0.8)\n- Use different images for dark/light if needed\n\nImplementation:\n- CSS custom properties\n- prefers-color-scheme media query\n- User toggle to override system preference",
+    "notes": "Guidelines for implementing effective dark mode interfaces.",
+    "color": "var(--vscode-terminal-ansiMagenta)",
+    "icon": "symbol-color",
+    "pinned": false
+  },
+  {
+    "id": "1738153301019",
+    "type": "prompts",
+    "name": "Design: Form Best Practices",
+    "content": "Layout:\n- Single column for better completion rates\n- Group related fields\n- Clear visual hierarchy\n\nLabels:\n- Always visible (not placeholder-only)\n- Position above input on mobile\n- Use sentence case\n\nValidation:\n- Inline validation after field blur\n- Clear, specific error messages\n- Success indicators for correct input\n- Disable submit until valid\n\nAccessibility:\n- Associate labels with inputs (for/id)\n- Use proper input types (email, tel, etc.)\n- Include autocomplete attributes",
+    "notes": "Form design patterns for better user experience and conversion.",
+    "color": "var(--vscode-charts-yellow)",
+    "icon": "checklist",
+    "pinned": false
+  },
+  {
+    "id": "1738153301020",
+    "type": "prompts",
+    "name": "Design: Micro-interactions",
+    "content": "Button Feedback:\n- Hover: Scale 1.02, brightness increase\n- Active: Scale 0.98\n- Ripple effect on click\n\nLoading States:\n- Skeleton screens for content\n- Spinner for actions\n- Progress bars for multi-step\n\nToasts/Notifications:\n- Slide in from top-right\n- Auto-dismiss after 3-5 seconds\n- Include close button\n- Stack multiple notifications\n\nPage Transitions:\n- Fade between views\n- Slide for hierarchical navigation\n- Maintain scroll position on back",
+    "notes": "Micro-interaction patterns that enhance user experience.",
+    "color": "var(--vscode-terminal-ansiBrightGreen)",
+    "icon": "sparkle",
+    "pinned": false
   }
 ]
