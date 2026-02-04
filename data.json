@@ -1,362 +1,373 @@
-[
-  {
-    "id": "1769596551842",
-    "type": "prompts",
-    "name": "Typography",
-    "content": "Typography: Optimized font sizes (11px base) and weights (450-600) for a precise, \"engineered\" look.\nLetter Spacing: Added subtle letter-spacing adjustments (0.01em and -0.01em) for improved readability and style.\nDensity: Increased information density while maintaining breathability.\nMicro-Animations: Added smooth transitions for tab switching, button hovers, and list interactions.",
-    "notes": "Native UI design guidelines and typographic specifications.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "symbol-folder",
-    "pinned": true
-  },
-  {
-    "id": "1738153300001",
-    "type": "commands",
-    "name": "Cargo: New Project",
-    "content": "cargo new <name>",
-    "notes": "Creates a new Rust project in a folder with the given name.",
-    "color": "var(--vscode-charts-orange)",
-    "icon": "new-folder",
-    "pinned": false
-  },
-  {
-    "id": "1738153300002",
-    "type": "commands",
-    "name": "Cargo: Build",
-    "content": "cargo build",
-    "notes": "Compiles the current project and its dependencies.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "tools",
-    "pinned": false
-  },
-  {
-    "id": "1738153300003",
-    "type": "commands",
-    "name": "Cargo: Run",
-    "content": "cargo run",
-    "notes": "Compiles and executes the current project binary.",
-    "color": "var(--vscode-charts-green)",
-    "icon": "play-circle",
-    "pinned": false
-  },
-  {
-    "id": "1738153300004",
-    "type": "commands",
-    "name": "Cargo: Check",
-    "content": "cargo check",
-    "notes": "Quickly check code for errors without building the full binary.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "check-all",
-    "pinned": false
-  },
-  {
-    "id": "1738153300005",
-    "type": "commands",
-    "name": "Cargo: Test",
-    "content": "cargo test",
-    "notes": "Runs all unit and integration tests defined in the project.",
-    "color": "var(--vscode-charts-yellow)",
-    "icon": "beaker",
-    "pinned": false
-  },
-  {
-    "id": "1738153300006",
-    "type": "commands",
-    "name": "NPM: Compile",
-    "content": "npm run compile",
-    "notes": "Compiles the extension code using the defined build script.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "gear",
-    "pinned": false
-  },
-  {
-    "id": "1738153300007",
-    "type": "commands",
-    "name": "VSCE: Package",
-    "content": "npx vsce package",
-    "notes": "Packages the extension into a .vsix file for installation.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "package",
-    "pinned": false
-  },
-  {
-    "id": "1738153300008",
-    "type": "commands",
-    "name": "Git: Init",
-    "content": "git init",
-    "notes": "Initializes a new local Git repository in the current folder.",
-    "color": "var(--vscode-charts-red)",
-    "icon": "repo",
-    "pinned": false
-  },
-  {
-    "id": "1738153300011",
-    "type": "commands",
-    "name": "Git: Clone",
-    "content": "git clone <url>",
-    "notes": "Clones a remote repository to your local machine.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "cloud-download",
-    "pinned": false
-  },
-  {
-    "id": "1738153300012",
-    "type": "commands",
-    "name": "Git: Status",
-    "content": "git status",
-    "notes": "Displays the state of the working directory and staging area.",
-    "color": "var(--vscode-charts-yellow)",
-    "icon": "info",
-    "pinned": true
-  },
-  {
-    "id": "1738153300013",
-    "type": "commands",
-    "name": "Git: Commit",
-    "content": "git commit -m \"<message>\"",
-    "notes": "Records changes to the repository with a descriptive message.",
-    "color": "var(--vscode-charts-green)",
-    "icon": "check",
-    "pinned": false
-  },
-  {
-    "id": "1738153300014",
-    "type": "commands",
-    "name": "Git: Fetch & Pull",
-    "content": "git pull origin main",
-    "notes": "Fetches and integrates changes from the remote main branch.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "repo-pull",
-    "pinned": false
-  },
-  {
-    "id": "1738153300009",
-    "type": "commands",
-    "name": "Git: Push",
-    "content": "git push -u origin main",
-    "notes": "Uploads local commits to the remote main branch.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "cloud-upload",
-    "pinned": false
-  },
-  {
-    "id": "1738153300015",
-    "type": "commands",
-    "name": "Docker: Build",
-    "content": "docker build -t <tag> .",
-    "notes": "Builds an image from a Dockerfile in the current directory.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "tools",
-    "pinned": false
-  },
-  {
-    "id": "1738153300016",
-    "type": "commands",
-    "name": "Docker: Run",
-    "content": "docker run -it <image>",
-    "notes": "Starts a container from an image in interactive mode.",
-    "color": "var(--vscode-charts-green)",
-    "icon": "play",
-    "pinned": false
-  },
-  {
-    "id": "1738153300017",
-    "type": "commands",
-    "name": "Docker: List Images",
-    "content": "docker images",
-    "notes": "Lists all Docker images stored locally.",
-    "color": "var(--vscode-terminal-ansiCyan)",
-    "icon": "layers",
-    "pinned": false
-  },
-  {
-    "id": "1738153300018",
-    "type": "commands",
-    "name": "Docker: List Containers",
-    "content": "docker ps -a",
-    "notes": "Lists all containers, including stopped ones.",
-    "color": "var(--vscode-terminal-ansiMagenta)",
-    "icon": "list-unordered",
-    "pinned": false
-  },
-  {
-    "id": "1738153300010",
-    "type": "commands",
-    "name": "CMake: Build",
-    "content": "cmake --build build",
-    "notes": "Builds a C++ project using CMake generated build files.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "tools",
-    "pinned": false
-  },
-  {
-    "id": "1738153300019",
-    "type": "commands",
-    "name": "Rust: Update Toolchain",
-    "content": "rustup update",
-    "notes": "Updates the Rust toolchain to the latest version.",
-    "color": "var(--vscode-charts-orange)",
-    "icon": "refresh",
-    "pinned": false
-  },
-  {
-    "id": "1738153300020",
-    "type": "commands",
-    "name": "NPM: Install",
-    "content": "npm install",
-    "notes": "Installs dependencies specified in package.json.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "package",
-    "pinned": false
-  },
-  {
-    "id": "1738153300021",
-    "type": "commands",
-    "name": "NPM: Run Dev",
-    "content": "npm run dev",
-    "notes": "Starts the development server for the project.",
-    "color": "var(--vscode-charts-green)",
-    "icon": "rocket",
-    "pinned": true
-  },
-  {
-    "id": "1738153300022",
-    "type": "commands",
-    "name": "Git: Branch List",
-    "content": "git branch",
-    "notes": "Lists all local branches in the current repository.",
-    "color": "var(--vscode-terminal-ansiCyan)",
-    "icon": "git-branch",
-    "pinned": false
-  },
-  {
-    "id": "1738153300023",
-    "type": "commands",
-    "name": "Git: Checkout",
-    "content": "git checkout -b <branch>",
-    "notes": "Creates and switches to a new branch.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "git-merge",
-    "pinned": false
-  },
-  {
-    "id": "1738153300024",
-    "type": "commands",
-    "name": "Docker: Prune System",
-    "content": "docker system prune -f",
-    "notes": "Removes unused data to free up disk space.",
-    "color": "var(--vscode-charts-red)",
-    "icon": "trash",
-    "pinned": false
-  },
-  {
-    "id": "1738153300025",
-    "type": "commands",
-    "name": "VS Code: Build Extension",
-    "content": "npm run build",
-    "notes": "Compiles webview and source code for production.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "gear",
-    "pinned": false
-  },
-  {
-    "id": "1738153300026",
-    "type": "prompts",
-    "name": "Native UI Guidelines",
-    "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
-    "notes": "Design principles for achieving a premium native application look.",
-    "color": "var(--text-color)",
-    "icon": "law",
-    "pinned": true
-  },
-  {
-    "id": "1738153301001",
-    "type": "prompts",
-    "name": "PR Template: Standard",
-    "content": "## Description\n[Provide a brief description of the changes]\n\n## Related Issues\nFixes #[Issue Number]\n\n## Changes Made\n- [Refined logic for...]\n- [Added new component...]\n\n## Testing Performed\n- [x] Manual verification of UI\n- [x] Ran automated tests",
-    "notes": "A standard template for Pull Requests.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "git-pull-request",
-    "pinned": false
-  },
-  {
-    "id": "1738153301002",
-    "type": "prompts",
-    "name": "Code Review Checklist",
-    "content": "- [ ] Does the code follow project naming conventions?\n- [ ] Are there any obvious logic errors or edge cases missed?\n- [ ] Is the code well-commented where necessary?\n- [ ] Are there potential performance bottlenecks?\n- [ ] Does the UI match the design specification exactly?",
-    "notes": "General checklist for conducting code reviews.",
-    "color": "var(--vscode-charts-yellow)",
-    "icon": "check-all",
-    "pinned": false
-  },
-  {
-    "id": "1738153301003",
-    "type": "prompts",
-    "name": "Bug Report Template",
-    "content": "## Steps to Reproduce\n1. [Step 1]\n2. [Step 2]\n\n## Expected Behavior\n[What should have happened]\n\n## Actual Behavior\n[What actually happened]\n\n## Environment\n- OS: [e.g. Windows 11]\n- Version: [e.g. 1.0.2]",
-    "notes": "Structured format for reporting bugs.",
-    "color": "var(--vscode-charts-red)",
-    "icon": "bug",
-    "pinned": false
-  },
-  {
-    "id": "1738153301004",
-    "type": "prompts",
-    "name": "Conventional Commits Guide",
-    "content": "Format: <type>(<scope>): <description>\n\nTypes:\n- feat: A new feature\n- fix: A bug fix\n- docs: Documentation changes\n- style: Changes that do not affect the meaning of the code\n- refactor: A code change that neither fixes a bug nor adds a feature\n- perf: A code change that improves performance\n- test: Adding missing tests or correcting existing tests",
-    "notes": "Guideline for writing standardized Git commit messages.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "git-commit",
-    "pinned": false
-  },
-  {
-    "id": "1738153301005",
-    "type": "prompts",
-    "name": "System Architecture Overview",
-    "content": "## Components\n- Provider: Handles VS Code API interaction and data persistence.\n- Webview (Media): Manages the UI, state, and user interactions.\n- Data Storage: JSON-based local/remote sync via Git.",
-    "notes": "High-level summary of the Command & Prompt Tracker architecture.",
-    "color": "var(--vscode-terminal-ansiCyan)",
-    "icon": "symbol-class",
-    "pinned": false
-  },
-  {
-    "id": "1770115645602",
-    "type": "commands",
-    "name": "Terminal: Scratch folder",
-    "content": "New-Item -ItemType SymbolicLink -Path \"C:\\Users\\skdso\\.gemini\\antigravity\\scratch\" -Target \"D:\\scratch\"",
-    "notes": "Change your location of the scratch folder",
-    "color": "var(--vscode-charts-orange)",
-    "icon": "terminal",
-    "pinned": false
-  },
-  {
-    "id": "1738153301006",
-    "type": "prompts",
-    "name": "Design: Glassmorphism",
-    "content": "Keywords: Frosted glass, transparent layers, blurred background, depth, vibrant backdrop\n\nTechnical: backdrop-filter: blur(8px), rgba backgrounds, layered cards\n\nUse when: Modern apps, dashboards, overlays, modals\n\nAvoid: Low-contrast backgrounds, accessibility issues",
-    "notes": "Modern glassmorphism design style with frosted glass effects and transparent layers.",
-    "color": "var(--vscode-terminal-ansiCyan)",
-    "icon": "symbol-color",
-    "pinned": false
-  },
-  {
-    "id": "1738153301007",
-    "type": "prompts",
-    "name": "Design: Aurora UI",
-    "content": "Keywords: Vibrant gradients, smooth blend, Northern Lights effect, mesh gradient, luminous\n\nTechnical: Multi-stop gradients, animated hue rotation, glow effects\n\nUse when: Landing pages, hero sections, creative portfolios\n\nAvoid: Text-heavy interfaces, professional/corporate contexts",
-    "notes": "Aurora-inspired UI design with vibrant gradients and Northern Lights effects.",
-    "color": "var(--vscode-charts-purple)",
-    "icon": "symbol-color",
-    "pinned": false
-  },
-  {
-    "id": "1738153301008",
-    "type": "prompts",
-    "name": "Design: Soft UI (Neumorphism 2.0)",
-    "content": "Keywords: Soft shadows, subtle gradients, rounded corners (12-16px), monochromatic, tactile\n\nTechnical: box-shadow: inset + outset, same-color palette, minimal contrast\n\nUse when: Mobile apps, minimalist interfaces, wellness/health apps\n\nAvoid: Complex data displays, accessibility-critical applications",
-    "notes": "Soft UI evolution (Neumorphism 2.0) with subtle shadows and tactile elements.",
-    "color": "var(--vscode-charts-blue)",
-    "icon": "symbol-color",
-    "pinned": false
-  }
-]
+{
+  "items": [
+    {
+      "id": "1769596551842",
+      "type": "prompts",
+      "name": "Typography",
+      "content": "Typography: Optimized font sizes (11px base) and weights (450-600) for a precise, \"engineered\" look.\nLetter Spacing: Added subtle letter-spacing adjustments (0.01em and -0.01em) for improved readability and style.\nDensity: Increased information density while maintaining breathability.\nMicro-Animations: Added smooth transitions for tab switching, button hovers, and list interactions.",
+      "notes": "Native UI design guidelines and typographic specifications.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "symbol-folder",
+      "pinned": true
+    },
+    {
+      "id": "1738153300001",
+      "type": "commands",
+      "name": "Cargo: New Project",
+      "content": "cargo new <name>",
+      "notes": "Creates a new Rust project in a folder with the given name.",
+      "color": "var(--vscode-charts-orange)",
+      "icon": "new-folder",
+      "pinned": false
+    },
+    {
+      "id": "1738153300002",
+      "type": "commands",
+      "name": "Cargo: Build",
+      "content": "cargo build",
+      "notes": "Compiles the current project and its dependencies.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "tools",
+      "pinned": false
+    },
+    {
+      "id": "1738153300003",
+      "type": "commands",
+      "name": "Cargo: Run",
+      "content": "cargo run",
+      "notes": "Compiles and executes the current project binary.",
+      "color": "var(--vscode-charts-green)",
+      "icon": "play-circle",
+      "pinned": false
+    },
+    {
+      "id": "1738153300004",
+      "type": "commands",
+      "name": "Cargo: Check",
+      "content": "cargo check",
+      "notes": "Quickly check code for errors without building the full binary.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "check-all",
+      "pinned": false
+    },
+    {
+      "id": "1738153300005",
+      "type": "commands",
+      "name": "Cargo: Test",
+      "content": "cargo test",
+      "notes": "Runs all unit and integration tests defined in the project.",
+      "color": "var(--vscode-charts-yellow)",
+      "icon": "beaker",
+      "pinned": false
+    },
+    {
+      "id": "1738153300006",
+      "type": "commands",
+      "name": "NPM: Compile",
+      "content": "npm run compile",
+      "notes": "Compiles the extension code using the defined build script.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "gear",
+      "pinned": false
+    },
+    {
+      "id": "1738153300007",
+      "type": "commands",
+      "name": "VSCE: Package",
+      "content": "npx vsce package",
+      "notes": "Packages the extension into a .vsix file for installation.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "package",
+      "pinned": false
+    },
+    {
+      "id": "1738153300008",
+      "type": "commands",
+      "name": "Git: Init",
+      "content": "git init",
+      "notes": "Initializes a new local Git repository in the current folder.",
+      "color": "var(--vscode-charts-red)",
+      "icon": "repo",
+      "pinned": false
+    },
+    {
+      "id": "1738153300011",
+      "type": "commands",
+      "name": "Git: Clone",
+      "content": "git clone <url>",
+      "notes": "Clones a remote repository to your local machine.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "cloud-download",
+      "pinned": false
+    },
+    {
+      "id": "1738153300012",
+      "type": "commands",
+      "name": "Git: Status",
+      "content": "git status",
+      "notes": "Displays the state of the working directory and staging area.",
+      "color": "var(--vscode-charts-yellow)",
+      "icon": "info",
+      "pinned": true
+    },
+    {
+      "id": "1738153300013",
+      "type": "commands",
+      "name": "Git: Commit",
+      "content": "git commit -m \"<message>\"",
+      "notes": "Records changes to the repository with a descriptive message.",
+      "color": "var(--vscode-charts-green)",
+      "icon": "check",
+      "pinned": false
+    },
+    {
+      "id": "1738153300014",
+      "type": "commands",
+      "name": "Git: Fetch & Pull",
+      "content": "git pull origin main",
+      "notes": "Fetches and integrates changes from the remote main branch.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "repo-pull",
+      "pinned": false
+    },
+    {
+      "id": "1738153300009",
+      "type": "commands",
+      "name": "Git: Push",
+      "content": "git push -u origin main",
+      "notes": "Uploads local commits to the remote main branch.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "cloud-upload",
+      "pinned": false
+    },
+    {
+      "id": "1738153300015",
+      "type": "commands",
+      "name": "Docker: Build",
+      "content": "docker build -t <tag> .",
+      "notes": "Builds an image from a Dockerfile in the current directory.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "tools",
+      "pinned": false
+    },
+    {
+      "id": "1738153300016",
+      "type": "commands",
+      "name": "Docker: Run",
+      "content": "docker run -it <image>",
+      "notes": "Starts a container from an image in interactive mode.",
+      "color": "var(--vscode-charts-green)",
+      "icon": "play",
+      "pinned": false
+    },
+    {
+      "id": "1738153300017",
+      "type": "commands",
+      "name": "Docker: List Images",
+      "content": "docker images",
+      "notes": "Lists all Docker images stored locally.",
+      "color": "var(--vscode-terminal-ansiCyan)",
+      "icon": "layers",
+      "pinned": false
+    },
+    {
+      "id": "1738153300018",
+      "type": "commands",
+      "name": "Docker: List Containers",
+      "content": "docker ps -a",
+      "notes": "Lists all containers, including stopped ones.",
+      "color": "var(--vscode-terminal-ansiMagenta)",
+      "icon": "list-unordered",
+      "pinned": false
+    },
+    {
+      "id": "1738153300010",
+      "type": "commands",
+      "name": "CMake: Build",
+      "content": "cmake --build build",
+      "notes": "Builds a C++ project using CMake generated build files.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "tools",
+      "pinned": false
+    },
+    {
+      "id": "1738153300019",
+      "type": "commands",
+      "name": "Rust: Update Toolchain",
+      "content": "rustup update",
+      "notes": "Updates the Rust toolchain to the latest version.",
+      "color": "var(--vscode-charts-orange)",
+      "icon": "refresh",
+      "pinned": false
+    },
+    {
+      "id": "1738153300020",
+      "type": "commands",
+      "name": "NPM: Install",
+      "content": "npm install",
+      "notes": "Installs dependencies specified in package.json.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "package",
+      "pinned": false
+    },
+    {
+      "id": "1738153300021",
+      "type": "commands",
+      "name": "NPM: Run Dev",
+      "content": "npm run dev",
+      "notes": "Starts the development server for the project.",
+      "color": "var(--vscode-charts-green)",
+      "icon": "rocket",
+      "pinned": true
+    },
+    {
+      "id": "1738153300022",
+      "type": "commands",
+      "name": "Git: Branch List",
+      "content": "git branch",
+      "notes": "Lists all local branches in the current repository.",
+      "color": "var(--vscode-terminal-ansiCyan)",
+      "icon": "git-branch",
+      "pinned": false
+    },
+    {
+      "id": "1738153300023",
+      "type": "commands",
+      "name": "Git: Checkout",
+      "content": "git checkout -b <branch>",
+      "notes": "Creates and switches to a new branch.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "git-merge",
+      "pinned": false
+    },
+    {
+      "id": "1738153300024",
+      "type": "commands",
+      "name": "Docker: Prune System",
+      "content": "docker system prune -f",
+      "notes": "Removes unused data to free up disk space.",
+      "color": "var(--vscode-charts-red)",
+      "icon": "trash",
+      "pinned": false
+    },
+    {
+      "id": "1738153300025",
+      "type": "commands",
+      "name": "VS Code: Build Extension",
+      "content": "npm run build",
+      "notes": "Compiles webview and source code for production.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "gear",
+      "pinned": false
+    },
+    {
+      "id": "1738153300026",
+      "type": "prompts",
+      "name": "Native UI Guidelines",
+      "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
+      "notes": "Design principles for achieving a premium native application look.",
+      "color": "var(--text-color)",
+      "icon": "law",
+      "pinned": true
+    },
+    {
+      "id": "1738153301001",
+      "type": "prompts",
+      "name": "PR Template: Standard",
+      "content": "## Description\n[Provide a brief description of the changes]\n\n## Related Issues\nFixes #[Issue Number]\n\n## Changes Made\n- [Refined logic for...]\n- [Added new component...]\n\n## Testing Performed\n- [x] Manual verification of UI\n- [x] Ran automated tests",
+      "notes": "A standard template for Pull Requests.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "git-pull-request",
+      "pinned": false
+    },
+    {
+      "id": "1738153301002",
+      "type": "prompts",
+      "name": "Code Review Checklist",
+      "content": "- [ ] Does the code follow project naming conventions?\n- [ ] Are there any obvious logic errors or edge cases missed?\n- [ ] Is the code well-commented where necessary?\n- [ ] Are there potential performance bottlenecks?\n- [ ] Does the UI match the design specification exactly?",
+      "notes": "General checklist for conducting code reviews.",
+      "color": "var(--vscode-charts-yellow)",
+      "icon": "check-all",
+      "pinned": false
+    },
+    {
+      "id": "1738153301003",
+      "type": "prompts",
+      "name": "Bug Report Template",
+      "content": "## Steps to Reproduce\n1. [Step 1]\n2. [Step 2]\n\n## Expected Behavior\n[What should have happened]\n\n## Actual Behavior\n[What actually happened]\n\n## Environment\n- OS: [e.g. Windows 11]\n- Version: [e.g. 1.0.2]",
+      "notes": "Structured format for reporting bugs.",
+      "color": "var(--vscode-charts-red)",
+      "icon": "bug",
+      "pinned": false
+    },
+    {
+      "id": "1738153301004",
+      "type": "prompts",
+      "name": "Conventional Commits Guide",
+      "content": "Format: <type>(<scope>): <description>\n\nTypes:\n- feat: A new feature\n- fix: A bug fix\n- docs: Documentation changes\n- style: Changes that do not affect the meaning of the code\n- refactor: A code change that neither fixes a bug nor adds a feature\n- perf: A code change that improves performance\n- test: Adding missing tests or correcting existing tests",
+      "notes": "Guideline for writing standardized Git commit messages.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "git-commit",
+      "pinned": false
+    },
+    {
+      "id": "1738153301005",
+      "type": "prompts",
+      "name": "System Architecture Overview",
+      "content": "## Components\n- Provider: Handles VS Code API interaction and data persistence.\n- Webview (Media): Manages the UI, state, and user interactions.\n- Data Storage: JSON-based local/remote sync via Git.",
+      "notes": "High-level summary of the Command & Prompt Tracker architecture.",
+      "color": "var(--vscode-terminal-ansiCyan)",
+      "icon": "symbol-class",
+      "pinned": false
+    },
+    {
+      "id": "1770115645602",
+      "type": "commands",
+      "name": "Terminal: Scratch folder",
+      "content": "New-Item -ItemType SymbolicLink -Path \"C:\\Users\\skdso\\.gemini\\antigravity\\scratch\" -Target \"D:\\scratch\"",
+      "notes": "Change your location of the scratch folder",
+      "color": "var(--vscode-charts-orange)",
+      "icon": "terminal",
+      "pinned": false
+    },
+    {
+      "id": "1738153301006",
+      "type": "prompts",
+      "name": "Design: Glassmorphism",
+      "content": "Keywords: Frosted glass, transparent layers, blurred background, depth, vibrant backdrop\n\nTechnical: backdrop-filter: blur(8px), rgba backgrounds, layered cards\n\nUse when: Modern apps, dashboards, overlays, modals\n\nAvoid: Low-contrast backgrounds, accessibility issues",
+      "notes": "Modern glassmorphism design style with frosted glass effects and transparent layers.",
+      "color": "var(--vscode-terminal-ansiCyan)",
+      "icon": "symbol-color",
+      "pinned": false
+    },
+    {
+      "id": "1738153301007",
+      "type": "prompts",
+      "name": "Design: Aurora UI",
+      "content": "Keywords: Vibrant gradients, smooth blend, Northern Lights effect, mesh gradient, luminous\n\nTechnical: Multi-stop gradients, animated hue rotation, glow effects\n\nUse when: Landing pages, hero sections, creative portfolios\n\nAvoid: Text-heavy interfaces, professional/corporate contexts",
+      "notes": "Aurora-inspired UI design with vibrant gradients and Northern Lights effects.",
+      "color": "var(--vscode-charts-purple)",
+      "icon": "symbol-color",
+      "pinned": false
+    },
+    {
+      "id": "1738153301008",
+      "type": "prompts",
+      "name": "Design: Soft UI (Neumorphism 2.0)",
+      "content": "Keywords: Soft shadows, subtle gradients, rounded corners (12-16px), monochromatic, tactile\n\nTechnical: box-shadow: inset + outset, same-color palette, minimal contrast\n\nUse when: Mobile apps, minimalist interfaces, wellness/health apps\n\nAvoid: Complex data displays, accessibility-critical applications",
+      "notes": "Soft UI evolution (Neumorphism 2.0) with subtle shadows and tactile elements.",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "symbol-color",
+      "pinned": false
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "1770244122005",
+      "username": "skdsam",
+      "url": "https://github.com/skdsam/commandline-extention-data",
+      "status": "active",
+      "lastSynced": "2026-02-04T22:28:42.005Z"
+    }
+  ]
+}
