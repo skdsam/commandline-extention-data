@@ -397,7 +397,7 @@
       "originalId": "test-item-3"
     },
     {
-      "id": "17703119476875svrm8el1",
+      "id": "1770311947616pj4jb6lbe",
       "name": "Hello World",
       "content": "echo 'Hello from SwipedSam!'",
       "notes": "A simple test command.",
@@ -409,7 +409,7 @@
       "originalId": "1770311772669uw7t1f4rn"
     },
     {
-      "id": "17703119476870t4fqsshf",
+      "id": "1770311947616o5o5rz0zy",
       "name": "Git Status",
       "content": "git status",
       "notes": "Check repository status.",
@@ -421,7 +421,7 @@
       "originalId": "17703117726699cq0kw4br"
     },
     {
-      "id": "1770311947687pq71yu08u",
+      "id": "1770311947616y342hnmca",
       "name": "PR Template",
       "content": "## Description\n\nBriefly describe the changes.\n\n## Type of Change\n\n- [ ] Bug fix\n- [ ] New feature\n- [ ] Breaking change",
       "notes": "Sample Pull Request template.",
@@ -439,14 +439,14 @@
       "username": "skdsam",
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
-      "lastSynced": "2026-02-05T17:19:08.210Z"
+      "lastSynced": "2026-02-05T17:19:07.616Z"
     },
     {
       "id": "1770311772669",
       "username": "SwipedSam",
       "url": "https://github.com/SwipedSam/testdata",
       "status": "active",
-      "lastSynced": "2026-02-05T17:19:08.255Z"
+      "lastSynced": "2026-02-05T17:19:09.700Z"
     }
   ]
 }
