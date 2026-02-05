@@ -359,6 +359,16 @@
       "color": "var(--vscode-charts-blue)",
       "icon": "symbol-color",
       "pinned": false
+    },
+    {
+      "id": "1770313548049",
+      "type": "prompts",
+      "name": "Test",
+      "content": "Some content",
+      "notes": "A note",
+      "color": "var(--vscode-charts-green)",
+      "icon": "symbol-color",
+      "pinned": false
     }
   ],
   "subscriptions": [
