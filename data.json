@@ -439,13 +439,13 @@
       "username": "skdsam",
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
-      "lastSynced": "2026-02-05T17:20:03.113Z"
+      "lastSynced": "2026-02-05T17:23:07.316Z"
     },
     {
       "id": "1770311772669",
       "username": "SwipedSam",
       "url": "https://github.com/SwipedSam/testdata",
-      "status": "active",
+      "status": "unreachable",
       "lastSynced": "2026-02-05T17:20:03.493Z"
     }
   ]
