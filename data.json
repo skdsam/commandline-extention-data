@@ -359,6 +359,42 @@
       "color": "var(--vscode-charts-blue)",
       "icon": "symbol-color",
       "pinned": false
+    },
+    {
+      "id": "177031081287006s6qdxzj",
+      "name": "Hello World",
+      "content": "echo 'Hello from SwipedSam!'",
+      "notes": "A simple test command.",
+      "type": "command",
+      "icon": "symbol-event",
+      "color": "var(--vscode-charts-blue)",
+      "pinned": false,
+      "source": "SwipedSam",
+      "originalId": "test-item-1"
+    },
+    {
+      "id": "1770310812870s3uk37hd7",
+      "name": "Git Status",
+      "content": "git status",
+      "notes": "Check repository status.",
+      "type": "command",
+      "icon": "git-compare",
+      "color": "var(--vscode-charts-green)",
+      "pinned": false,
+      "source": "SwipedSam",
+      "originalId": "test-item-2"
+    },
+    {
+      "id": "17703108128700egq3ha2z",
+      "name": "PR Template",
+      "content": "## Description\n\nBriefly describe the changes.\n\n## Type of Change\n\n- [ ] Bug fix\n- [ ] New feature\n- [ ] Breaking change",
+      "notes": "Sample Pull Request template.",
+      "type": "prompt",
+      "icon": "git-pull-request",
+      "color": "var(--vscode-charts-orange)",
+      "pinned": false,
+      "source": "SwipedSam",
+      "originalId": "test-item-3"
     }
   ],
   "subscriptions": [
@@ -368,6 +404,13 @@
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
       "lastSynced": "2026-02-04T22:35:57.649Z"
+    },
+    {
+      "id": "1770310812870",
+      "username": "SwipedSam",
+      "url": "https://github.com/SwipedSam/testdata",
+      "status": "active",
+      "lastSynced": "2026-02-05T17:00:12.870Z"
     }
   ]
 }
