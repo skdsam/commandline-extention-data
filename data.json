@@ -365,7 +365,7 @@
       "name": "Hello World",
       "content": "echo 'Hello from SwipedSam!'",
       "notes": "A simple test command.",
-      "type": "command",
+      "type": "commands",
       "icon": "symbol-event",
       "color": "var(--vscode-charts-blue)",
       "pinned": false,
@@ -377,7 +377,7 @@
       "name": "Git Status",
       "content": "git status",
       "notes": "Check repository status.",
-      "type": "command",
+      "type": "commands",
       "icon": "git-compare",
       "color": "var(--vscode-charts-green)",
       "pinned": false,
@@ -389,12 +389,48 @@
       "name": "PR Template",
       "content": "## Description\n\nBriefly describe the changes.\n\n## Type of Change\n\n- [ ] Bug fix\n- [ ] New feature\n- [ ] Breaking change",
       "notes": "Sample Pull Request template.",
-      "type": "prompt",
+      "type": "prompts",
       "icon": "git-pull-request",
       "color": "var(--vscode-charts-orange)",
       "pinned": false,
       "source": "SwipedSam",
       "originalId": "test-item-3"
+    },
+    {
+      "id": "17703119476875svrm8el1",
+      "name": "Hello World",
+      "content": "echo 'Hello from SwipedSam!'",
+      "notes": "A simple test command.",
+      "type": "command",
+      "icon": "symbol-event",
+      "color": "var(--vscode-charts-blue)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "1770311772669uw7t1f4rn"
+    },
+    {
+      "id": "17703119476870t4fqsshf",
+      "name": "Git Status",
+      "content": "git status",
+      "notes": "Check repository status.",
+      "type": "command",
+      "icon": "git-compare",
+      "color": "var(--vscode-charts-green)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "17703117726699cq0kw4br"
+    },
+    {
+      "id": "1770311947687pq71yu08u",
+      "name": "PR Template",
+      "content": "## Description\n\nBriefly describe the changes.\n\n## Type of Change\n\n- [ ] Bug fix\n- [ ] New feature\n- [ ] Breaking change",
+      "notes": "Sample Pull Request template.",
+      "type": "prompt",
+      "icon": "git-pull-request",
+      "color": "var(--vscode-charts-orange)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "1770311772669rlw39sugi"
     }
   ],
   "subscriptions": [
@@ -403,14 +439,14 @@
       "username": "skdsam",
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
-      "lastSynced": "2026-02-05T17:15:50.922Z"
+      "lastSynced": "2026-02-05T17:19:07.687Z"
     },
     {
       "id": "1770311772669",
       "username": "SwipedSam",
       "url": "https://github.com/SwipedSam/testdata",
       "status": "active",
-      "lastSynced": "2026-02-05T17:16:12.669Z"
+      "lastSynced": "2026-02-05T17:19:07.736Z"
     }
   ]
 }
