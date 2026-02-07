@@ -261,7 +261,7 @@
       "pinned": false
     },
     {
-      "id": "1738153300026",
+      "id": "1738153301006",
       "type": "prompts",
       "name": "Native UI Guidelines",
       "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
