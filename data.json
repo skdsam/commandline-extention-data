@@ -441,6 +441,16 @@
       "color": "var(--text-color)",
       "icon": "law",
       "pinned": true
+    },
+    {
+      "id": "1770552233449",
+      "type": "commands",
+      "name": "Design: Native UI",
+      "content": "UI DESIGN PROMPT – NATIVE APPLICATION FOCUS\n\nYou are a top-tier professional UI/UX designer specialising in desktop and native application interfaces, not websites.\n\nDesign a clean, modern application interface that does NOT resemble a web page in any way. Avoid web-style layouts, hero sections, cards, marketing blocks, or browser-like spacing.\n\nInterface Philosophy\n\nThink native desktop software, not SaaS\n\nPurpose-driven layout, compact but breathable\n\nInformation density is balanced and intentional\n\nEverything feels engineered, not decorative\n\nTypography (CRITICAL)\n\nTypography is treated as a core design system, not decoration\n\nUse 1–2 font families maximum\n\nCarefully match:\n\nfont size\n\nfont weight\n\nline height\n\nletter spacing\n\nClear hierarchy:\n\nprimary headings\n\nsecondary labels\n\nbody text\n\nmicro-text / hints\n\nAvoid oversized text, excessive contrast jumps, or web-style scaling\n\nText should feel precise, calm, and professional\n\nColour & Styling (VERY IMPORTANT)\n\nColour harmony is essential\n\nUse a controlled, limited palette\n\nSubtle tonal variations, not gradients everywhere\n\nNo glassmorphism\n\nNo frosted blur panels\n\nNo transparency layers that reduce clarity\n\nContrast is clear but refined — never harsh\n\nUI elements should feel solid, grounded, and intentional\n\nComponents & Layout\n\nUse sleek, minimal components\n\nButtons are understated, not oversized\n\nInputs are clean, rectangular or softly rounded (never pill-shaped)\n\nIcons are simple, consistent, and functional\n\nSpacing is consistent and rhythm-based\n\nAvoid card-based layouts unless absolutely necessary\n\nVisual Tone\n\nModern\n\nMinimal\n\nStylish\n\nCalm\n\nProfessional\n\nTimeless (not trendy)\n\nExplicitly Avoid\n\nWeb dashboard aesthetics\n\nMarketing-style layouts\n\nGlassmorphism\n\nNeon gradients\n\nOver-rounded UI\n\nExcessive shadows\n\n“Startup landing page” look\n\nGoal\n\nCreate an interface that feels like a high-end native application built by experienced engineers and designers, with obsessive attention to typography, spacing, alignment, and colour discipline.",
+      "notes": "To create native designs not websites",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "paintcan",
+      "pinned": false
     }
   ],
   "subscriptions": [
