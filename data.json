@@ -263,12 +263,12 @@
     {
       "id": "1738153301006",
       "type": "prompts",
-      "name": "Native UI Guidelines",
-      "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
-      "notes": "Design principles for achieving a premium native application look.",
-      "color": "var(--text-color)",
-      "icon": "law",
-      "pinned": true
+      "name": "Design: Glassmorphism",
+      "content": "Keywords: Frosted glass, transparent layers, blurred background, depth, vibrant backdrop\n\nTechnical: backdrop-filter: blur(8px), rgba backgrounds, layered cards\n\nUse when: Modern apps, dashboards, overlays, modals\n\nAvoid: Low-contrast backgrounds, accessibility issues",
+      "notes": "Modern glassmorphism design style with frosted glass effects and transparent layers.",
+      "color": "var(--vscode-terminal-ansiCyan)",
+      "icon": "symbol-color",
+      "pinned": false
     },
     {
       "id": "1738153301001",
@@ -328,16 +328,6 @@
       "notes": "Change your location of the scratch folder",
       "color": "var(--vscode-charts-orange)",
       "icon": "terminal",
-      "pinned": false
-    },
-    {
-      "id": "1738153301006",
-      "type": "prompts",
-      "name": "Design: Glassmorphism",
-      "content": "Keywords: Frosted glass, transparent layers, blurred background, depth, vibrant backdrop\n\nTechnical: backdrop-filter: blur(8px), rgba backgrounds, layered cards\n\nUse when: Modern apps, dashboards, overlays, modals\n\nAvoid: Low-contrast backgrounds, accessibility issues",
-      "notes": "Modern glassmorphism design style with frosted glass effects and transparent layers.",
-      "color": "var(--vscode-terminal-ansiCyan)",
-      "icon": "symbol-color",
       "pinned": false
     },
     {
@@ -441,6 +431,16 @@
       "pinned": false,
       "source": "skdsam",
       "originalId": "1770314917300hcp06xfon"
+    },
+    {
+      "id": "1738153300026",
+      "type": "prompts",
+      "name": "Native UI Guidelines",
+      "content": "1. Think native desktop software, not SaaS\n2. Typography as a core design system\n3. Controlled, limited palette\n4. Solid, grounded UI elements\n5. Avoid web dashboard aesthetics",
+      "notes": "Design principles for achieving a premium native application look.",
+      "color": "var(--text-color)",
+      "icon": "law",
+      "pinned": true
     }
   ],
   "subscriptions": [
