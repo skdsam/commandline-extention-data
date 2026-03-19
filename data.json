@@ -451,6 +451,16 @@
       "color": "var(--vscode-charts-blue)",
       "icon": "paintcan",
       "pinned": false
+    },
+    {
+      "id": "1773924278015",
+      "type": "commands",
+      "name": "Cargo install",
+      "content": "cargo install --path src-tauri",
+      "notes": "INstall cargo for building the dev",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "terminal",
+      "pinned": false
     }
   ],
   "subscriptions": [
