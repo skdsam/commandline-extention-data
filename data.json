@@ -461,6 +461,16 @@
       "color": "var(--vscode-charts-blue)",
       "icon": "terminal",
       "pinned": false
+    },
+    {
+      "id": "1774028804227",
+      "type": "commands",
+      "name": "Local viewer",
+      "content": "npx http-server -p 8080",
+      "notes": "View local website",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "browser",
+      "pinned": false
     }
   ],
   "subscriptions": [
