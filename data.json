@@ -482,7 +482,7 @@
       "color": "var(--vscode-charts-blue)",
       "pinned": false,
       "source": "skdsam",
-      "originalId": "1770314917300i7z8fuxg9"
+      "originalId": "1774036286128pf516d6ev"
     },
     {
       "id": "1774036286128itg52v9i4",
@@ -494,7 +494,7 @@
       "color": "var(--vscode-charts-green)",
       "pinned": false,
       "source": "skdsam",
-      "originalId": "1770314917300p0zx4a2st"
+      "originalId": "1774036286128itg52v9i4"
     },
     {
       "id": "1774036286128kqq58kga7",
@@ -506,7 +506,7 @@
       "color": "var(--vscode-charts-orange)",
       "pinned": false,
       "source": "skdsam",
-      "originalId": "1770314917300hcp06xfon"
+      "originalId": "1774036286128kqq58kga7"
     }
   ],
   "subscriptions": [
@@ -515,14 +515,14 @@
       "username": "skdsam",
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
-      "lastSynced": "2026-03-20T19:51:26.128Z"
+      "lastSynced": "2026-03-22T15:01:09.710Z"
     },
     {
       "id": "1770311772669",
       "username": "SwipedSam",
       "url": "https://github.com/SwipedSam/testdata",
       "status": "active",
-      "lastSynced": "2026-03-20T19:51:26.265Z"
+      "lastSynced": "2026-03-22T15:01:09.876Z"
     }
   ]
 }
