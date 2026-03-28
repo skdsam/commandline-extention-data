@@ -543,6 +543,42 @@
       "pinned": false,
       "source": "skdsam",
       "originalId": "1774191969568w47xj8i8x"
+    },
+    {
+      "id": "1774706906204olml8yoms",
+      "name": "Hello World",
+      "content": "echo 'Hello from SwipedSam!'",
+      "notes": "A simple test command.",
+      "type": "commands",
+      "icon": "symbol-event",
+      "color": "var(--vscode-charts-blue)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "1770314917300i7z8fuxg9"
+    },
+    {
+      "id": "1774706906204nk25ziuwz",
+      "name": "Git Status",
+      "content": "git status",
+      "notes": "Check repository status.",
+      "type": "commands",
+      "icon": "git-compare",
+      "color": "var(--vscode-charts-green)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "1770314917300p0zx4a2st"
+    },
+    {
+      "id": "177470690620400wrxrtje",
+      "name": "PR Template",
+      "content": "## Description\n\nBriefly describe the changes.\n\n## Type of Change\n\n- [ ] Bug fix\n- [ ] New feature\n- [ ] Breaking change",
+      "notes": "Sample Pull Request template.",
+      "type": "prompts",
+      "icon": "git-pull-request",
+      "color": "var(--vscode-charts-orange)",
+      "pinned": false,
+      "source": "skdsam",
+      "originalId": "1770314917300hcp06xfon"
     }
   ],
   "subscriptions": [
@@ -551,14 +587,14 @@
       "username": "skdsam",
       "url": "https://github.com/skdsam/commandline-extention-data",
       "status": "active",
-      "lastSynced": "2026-03-22T15:11:09.777Z"
+      "lastSynced": "2026-03-28T14:08:26.204Z"
     },
     {
       "id": "1770311772669",
       "username": "SwipedSam",
       "url": "https://github.com/SwipedSam/testdata",
       "status": "active",
-      "lastSynced": "2026-03-22T15:11:09.907Z"
+      "lastSynced": "2026-03-28T14:08:26.370Z"
     }
   ]
 }
