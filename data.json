@@ -589,6 +589,16 @@
       "color": "var(--vscode-charts-blue)",
       "icon": "terminal",
       "pinned": false
+    },
+    {
+      "id": "1775399626233",
+      "type": "commands",
+      "name": "ollama rm",
+      "content": "ollama rm <model>",
+      "notes": "",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "terminal",
+      "pinned": false
     }
   ],
   "subscriptions": [
