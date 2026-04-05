@@ -579,6 +579,16 @@
       "pinned": false,
       "source": "skdsam",
       "originalId": "177470690620400wrxrtje"
+    },
+    {
+      "id": "1775399582584",
+      "type": "commands",
+      "name": "ollama list",
+      "content": "ollama list",
+      "notes": "",
+      "color": "var(--vscode-charts-blue)",
+      "icon": "terminal",
+      "pinned": false
     }
   ],
   "subscriptions": [
